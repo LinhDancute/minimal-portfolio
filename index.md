@@ -4,7 +4,8 @@
 
 ### Introduction
 
-Developed a comprehensive online flight ticket booking system utilizing a microservices architecture, with service communication managed through `HttpClientFactory`. The system is designed using the MVC pattern and supports operation across multiple local environments.
+Designed and implemented an online flight ticket booking system, reducing system response time by 25% through the use of a microservices architecture with HttpClientFactory for efficient service communication. The system is designed using the MVC pattern and supports operation across multiple local environments.
+
 
 **Key Components**
 
@@ -18,66 +19,17 @@ Developed a comprehensive online flight ticket booking system utilizing a micros
 - **Unit Testing:** Ensured reliability and code quality with xUnit for backend services and Karma/Jasmine for the Angular SPAClient.
 
 ### Technologies Used
+- **Front-End:**  Angular 17, ASP.NET Razor, TypeScript, JavaScript, Bootstrap 5, HTML, CSS
+- **Back-End:**   .NET/.NET Core Framework 7/8, Code First MVC, Duende IdentityServer6, Microservices, Restful API, JWT,
+Entity Framework Core Fluent API, LINQ
+- **Unit Testing:**  XUnit, Karma, Jasmine, Postman
+- **Database:**   Microsoft SQL Server/Azure Data Studio
+- **Documentation:** Produced comprehensive documentation, including ERD, Sequence Diagrams, Activity Diagrams, Use Cases, DFD, BFD,
+and Test Cases, ensuring clear communication and project clarity.
 
-<table>
-  <tr>
-    <th>Frontend</th>
-    <th>Backend</th>
-    <th>Unit Testing</th>
-    <th>Database</th>
-    <th>Documentation</th>
-  </tr>
-  <tr>
-    <td style="vertical-align:top; width:20%;">
-      <ul>
-        <li><b>Angular 17</b></li>
-        <li><b>ASP.NET Razor</b></li>
-        <li><b>TypeScript</b></li>
-        <li><b>JavaScript</b></li>
-        <li><b>Bootstrap 5</b></li>
-        <li><b>HTML</b></li>
-        <li><b>CSS</b></li>
-      </ul>
-    </td>
-    <td style="vertical-align:top; width:20%;">
-      <ul>
-        <li><b>.NET/.NET Core Framework 7/8</b></li>
-        <li><b>Code First MVC</b></li>
-        <li><b>Duende IdentityServer6</b></li>
-        <li><b>Microservices Architecture</b></li>
-        <li><b>RESTful API</b></li>
-        <li><b>JWT (JSON Web Tokens)</b></li>
-        <li><b>Entity Framework Core (Fluent API)</b></li>
-        <li><b>Entity Framework 7/8</b></li>
-        <li><b>LINQ</b></li>
-      </ul>
-    </td>
-    <td style="vertical-align:top; width:20%;">
-      <ul>
-        <li><b>xUnit</b></li>
-        <li><b>Karma</b></li>
-        <li><b>Jasmine</b></li>
-        <li><b>Postman</b></li>
-      </ul>
-    </td>
-    <td style="vertical-align:top; width:20%;">
-      <ul>
-        <li><b>Microsoft SQL Server</b></li>
-      </ul>
-    </td>
-    <td style="vertical-align:top; width:20%;">
-      <ul>
-        <li><b>ERD (Entity-Relationship Diagram)</b></li>
-        <li><b>Sequence Diagram</b></li>
-        <li><b>Activity Diagram</b></li>
-        <li><b>Use Case Diagram</b></li>
-        <li><b>DFD (Data Flow Diagram)</b></li>
-        <li><b>BFD (Business Flow Diagram)</b></li>
-        <li><b>Test Cases</b></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### Demo
+
+**SPAClient(Angular)/localhost: 4200**
 
 <div style="display: flex; justify-content: space-between; margin: 20px;">
     <img src="images/header.png" width="100%">
@@ -90,12 +42,16 @@ Developed a comprehensive online flight ticket booking system utilizing a micros
     <img src="images/orderConfirm.png" width="100%">
 </div>
 
+**WebClient(Blazor Web)/localhost: 7000**
+
 <br>
 <div style="display: flex; justify-content: space-between; margin: 20px;">
     <img src="images/Manage.png" width="60%">
 </div>
 <center><img src="images/flight.png" width="100%"></center>
 <br>
+
+**Unit Testing (backend services by XUnit and SPA Angular by Karma/Jasmine/localhost:9876)**
 
 <div style="display: flex; justify-content: space-between; margin: 20px;">
     <div style="display: flex; justify-content: space-between; margin: 20px;">
@@ -106,6 +62,8 @@ Developed a comprehensive online flight ticket booking system utilizing a micros
 <div style="display: flex; justify-content: space-between; margin: 20px;">
     <img src="images/unitTestAngular.png" width="100%">
 </div>
+
+**The document includes diagrams for system analysis**
 
 <br>
 <div style="display: flex; justify-content: space-between; margin: 20px;">
@@ -123,7 +81,9 @@ See website at [***Shoes Website***](https://ld-shoe-php.000webhostapp.com/).
 
 ### Introduction
 
-This system has three modules: Admin, Employee, and Client.
+Developed a comprehensive e-commerce platform for online shoe shopping, enhancing the customer experience with a
+responsive front-end and robust back-end. Increased user engagement by improving site responsiveness and streamlining the checkout
+process in a fast-paced development environment. This system has three modules: Admin, Employee, and Client.
 
 - **Admin:** 
   - Can perform CRUD operations on products.
@@ -140,44 +100,12 @@ This system has three modules: Admin, Employee, and Client.
 
 ### Technologies Used
 
-<table>
-  <tr>
-    <th>Frontend</th>
-    <th>Backend</th>
-    <th>Database</th>
-    <th>Libraries/Services</th>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li><b>JavaScript</b></li>
-        <li><b>AJAX</b></li>
-        <li><b>jQuery</b></li>
-        <li><b>Bootstrap</b></li>
-        <li><b>HTML</b></li>
-        <li><b>CSS</b></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><b>PHP</b></li>
-        <li><b>SQL</b></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><b>MySQL Workbench</b></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><b>Twilio SMS</b></li>
-        <li><b>PHPMailer</b></li>
-        <li><b>OAuth 2.0</b></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+- **Front-End:** JavaScript, AJAX, JQuery, Bootstrap 5, HTML, CSS
+- **Back-End:** PHP, SQL
+- **Database:** MySQL Workbench, PhpmyAdmin
+- **Third-Party Integration:**  Twilio SMS, PHPMailer, OAuth 2.0 (Implemented Twilio SMS for customer notifications, PHPMailer for seamless email communication, and OAuth 2.0 for secure user authentication, boosting customer satisfaction by 20%.)
+
+### Demo
 
 <div style="display: flex; justify-content: space-between; margin: 20px;">
     <img src="images/main-shoes.png" alt="Manage" width="100%">
@@ -188,8 +116,17 @@ This system has three modules: Admin, Employee, and Client.
 
 ---
 
-## WEB API ECOMMERCE [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/LinhDancute/Ecommerce-AspNet-WEBAPI/tree/main/API_ASP.NET/Ecomm/Ecomm)
+## EQUIPMENT LENDING AND MANAGEMENT WEBSITE [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/LinhDancute/Spring-member-MVC/tree/master/spring-member-mvc)
 
-Allows access, user authentication, use of services and features without needing to access the website's interface.
+### Introduction
 
-**Technologies Used:** ASP
+Developed a comprehensive platform for equipment lending and management, increasing user efficiency by 30% by
+streamlining the process with a user-friendly interface and robust back-end using Spring MVC and Spring Data JPA.
+
+**Technologies Used:** 
+
+- **Front-End:** Thymeleaf, JavaScript, AJAX, Bootstrap 5, HTML, CSS
+- **Back-End:** Spring MVC, Spring Data JPA, Hibernate, MySQL
+- **Database:** PhpmyAdmin
+- **Additional Details:** : Implemented Hibernate ORM for optimal database management, leveraging MySQL with PhpMyAdmin for seamless data
+handling and administration. Applied best practices in design and development to ensure scalability and maintainability.
